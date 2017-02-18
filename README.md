@@ -1,1 +1,2 @@
 # deneme
+ilk denemem
