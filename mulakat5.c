@@ -16,7 +16,9 @@ int	main(int argc, char const *argv[])
     //printf("sizeof(p1)    = %d\n", (int)sizeof(p1));
     //printf("sizeof(p2)    = %d\n", (int)sizeof(p2));
     //printf("sizeof(p3)    = %d\n", (int)sizeof(p3));
-	const char *pnames[]= {"Ali","Zeynep","Osman","Ayse","Emre","Zeliha","Yusuf","Mahmut"};  //BUrada const kullanmamızın sebebi derleyicin hata vermesi.
+	
+	//BUrada const kullanmamızın sebebi derleyicin hata vermesi.
+	const char *pnames[]= {"Ali","Zeynep","Osman","Ayse","Emre","Zeliha","Yusuf","Mahmut"};  
 
 	//char pnames[]= {"Ali","Zeynep","Osman","Ayse","Emre","Zeliha","Yusuf","Mahmut"};  
 	//char pnames[]={'a','b','c','\0'};   // önemli char array sadece karakter alır ve bunu printf %s ile yazdırmak istersen sonlandırma karakteri koymalısın.
